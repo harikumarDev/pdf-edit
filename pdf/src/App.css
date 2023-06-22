@@ -1,0 +1,38 @@
+.App > h1 {
+  padding: 0.4em 1em;
+  border-bottom: 1px solid #ccc;
+}
+.pdf-cont {
+  margin: 1em;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+.btn {
+  padding: 0.8em 1em;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  color: white;
+  font: bold 1em sans-serif;
+}
+.btn:hover {
+  box-shadow: 0 0 5px #ccc;
+}
+.load {
+  background-color: #5587f3;
+}
+.save {
+  background-color: #fa733e;
+}
+.edit-pdf-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+}
